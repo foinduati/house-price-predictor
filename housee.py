@@ -10,7 +10,7 @@ import time
 
 #import the data
 data = pd.read_csv("Data Clean.csv")
-image = Image.open("house.JPG")
+image = Image.open("house.jpg")
 st.title("Welcome to the house prediction app")
 st.image(image, use_column_width=True)
 
